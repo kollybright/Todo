@@ -1,26 +1,22 @@
 <?php
+session_start();
+$id=$_SESSION['id'];
 include("conn.php");
 
-$event = $_POST['event'];
+$event = mysqli_real_escape_string($link, strip_tags($_POST['event']));
 
-$time = $_POST['time'];
+$time =  mysqli_real_escape_string($link,strip_tags($_POST['time']));
 
 
 if ($event && $time) {
 
 
-    $sql = "INSERT INTO todo(event, the_time) VALUES ('$event ', '$time')";
+    $sql = "INSERT INTO todo(event, the_time,user_id) VALUES ('$event ', '$time','".$id."')";
 
     $result=mysqli_query($link, $sql);
     if ($result){
         echo "reload";
     }
-
-
-} else {
-    echo "you need to enter both fields";
-
-
 
 }
 
