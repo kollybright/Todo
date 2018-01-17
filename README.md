@@ -1,6 +1,6 @@
 ### What is this repository for? ###
 
-* This repository is  majorly for  web services, it's a todo web based application, whereby a user can create (event and time of  the event),update and delete, it's written javascript(jQuery) and PHP with MySQL. There is a registration  user authentication page before a user can have access to is page. 
+* This repository is  majorly for  web services, it's a todo web based application, whereby a user can create (event and time of  the event),update and delete, it's writte in javascript(jQuery) and PHP with MySQL. There is a registration and user authentication page before a user can have access to their page. 
 * version 2.14.2.windows.3
 
 ### How do I get set up? ###
