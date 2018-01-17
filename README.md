@@ -8,14 +8,14 @@
 * Registration page->Login page->user page
 * bootstrap, JQuery
 * Database configuration 
-    Host->"localhost" or "127.0.0.1"
-    Username->"root"
-    Password->""
-    Database->Todo
-    TABLES
-    reg_users-> holds user details
-    todo->holds events
-     column todo.user_id=reg_users.user_id is the matching order
+   * Host->"localhost" or "127.0.0.1"
+    * Username->"root"
+    * Password->""
+    * Database->Todo
+    * TABLES
+       *   reg_users-> holds user details
+       *   todo->holds events
+       *   column todo.user_id=reg_users.user_id is the matching order
 
 ### Who do I talk to? ###
 
